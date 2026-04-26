@@ -1,0 +1,54 @@
+body {
+    color: #201335;
+    margin: auto;
+    text-align: center;
+    background-color: #fff7e1;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+}
+
+.container {
+   max-width: 1400px;
+    padding: 2%;
+    border-radius: 50px;
+    margin-top: 5%;
+    outline: 5px solid #EF798A;
+    background-color: #c1c7f6;
+}
+
+footer {
+    background-color: #201335;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.btn {
+    background-color: #EF798A;
+    color: white;
+    border: 2px solid #8857a2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
+}
+
+.navbar{
+    background-color: #caffe3;
+    border-bottom: 3px solid #201335;
+}
+
+.form-control { 
+    border: #201335 solid 2px;
+    border-radius: 20px;
+}
+
+.form-select { 
+    border: #201335 solid 2px;
+    border-radius: 20px;
+}
+
