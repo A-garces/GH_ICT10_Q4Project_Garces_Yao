@@ -15,11 +15,11 @@ def student_info(e):
     output.innerHTML = ""
 
     Yao = Student('Franchesca Yao', 'Sapphire', 'Social Studies')
-    Kelsey = Student('Kelsey Medina', 'Sapphire', 'Science')
-    Alijah = Student('Alijah Lagman', 'Sapphire', 'Math')
-    Harvey = Student('Harvey Dolor', 'Sapphire', 'English')
+    Hizon = Student('Eduardo Hizon', 'Sapphire', 'Science')
+    Garces = Student('Adrianna Garces', 'Sapphire', 'Math')
+    Dolor = Student('Harvey Dolor', 'Sapphire', 'English')
     
-    classmates = [Yao, Kelsey, Alijah, Harvey]
+    classmates = [Yao, Hizon, Garces, Dolor]
 
     for student in classmates:
         display(student.introduce(), target='output')
